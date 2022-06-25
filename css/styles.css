@@ -5,6 +5,9 @@
 .navbar-brand{
   font-family: 'Ubuntu', sans-serif;
 }
-body{
-  font-family: 'Montserrat', sans-serif;
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
 }
