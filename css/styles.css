@@ -1,4 +1,10 @@
 #title{
   background-color: #ff4c68;
+
+}
+.navbar-brand{
   font-family: 'Ubuntu', sans-serif;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
 }
