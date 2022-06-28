@@ -1,16 +1,32 @@
 #title{
   background-color: #ff4c68;
-
+  font-size: 1.2rem;
+}
+#tindogstyle{
+position: relative;
+left: -22%;
+padding-right: 30%;
+float: right;
 }
 .navbar-brand{
   font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
 }
 h1{
   font-family: 'Montserrat-black', sans-serif;
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
+  color: white;
 }
 .container-fluid{
   padding: 3% 15%;
+
+}
+.nav-item{
+  padding: 3% 10%;
+
+}
+.btn{
+  margin: 5px;
 }
