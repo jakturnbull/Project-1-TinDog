@@ -11,6 +11,7 @@ float: right;
 .navbar-brand{
   font-family: 'Ubuntu', sans-serif;
   font-size: 3rem;
+
 }
 h1{
   font-family: 'Montserrat-black', sans-serif;
@@ -21,7 +22,7 @@ h1{
 }
 .container-fluid{
   padding: 3% 15%;
-
+  padding-bottom: 5%;
 }
 .nav-item{
   padding: 3% 10%;
@@ -29,4 +30,9 @@ h1{
 }
 .btn{
   margin: 5px;
+  margin-bottom: 100px;
+  margin-top: 20PX
+}
+.rotate{
+  transform: rotate(20deg);
 }
