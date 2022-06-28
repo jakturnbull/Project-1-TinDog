@@ -1,38 +1,47 @@
-#title{
+#title {
   background-color: #ff4c68;
   font-size: 1.2rem;
+  color: #fff;
 }
-#tindogstyle{
-position: relative;
-left: -22%;
-padding-right: 30%;
-float: right;
+
+#tindogstyle {
+  position: relative;
+  left: -22%;
+  padding-right: 30%;
+  float: right;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-family: 'Ubuntu', sans-serif;
   font-size: 3rem;
-
 }
-h1{
+
+h1 {
   font-family: 'Montserrat-black', sans-serif;
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
-  color: white;
 }
-.container-fluid{
+
+.container-fluid {
   padding: 3% 15%;
   padding-bottom: 5%;
 }
-.nav-item{
-  padding: 3% 10%;
 
+.nav-item {
+  padding: 3% 10%;
 }
-.btn{
+
+.btn {
   margin: 5px;
   margin-bottom: 100px;
   margin-top: 20PX
 }
-.rotate{
+
+.rotate {
   transform: rotate(20deg);
+}
+
+body {
+  font-family: "Montserrat";
 }
