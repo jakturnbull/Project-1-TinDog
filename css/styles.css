@@ -10,6 +10,9 @@
   padding-right: 30%;
   float: right;
 }
+#features{
+  margin-left: 13px;
+}
 
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
