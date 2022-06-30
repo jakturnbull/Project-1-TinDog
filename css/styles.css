@@ -48,3 +48,12 @@ h1 {
 body {
   font-family: "Montserrat";
 }
+.fa-circle-check{
+  color: #ef8172;
+}
+.fa-bullseye{
+    color: #ef8172;
+}
+.fa-heart{
+   color: #ef8172;
+}
