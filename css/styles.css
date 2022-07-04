@@ -1,4 +1,3 @@
-
 #title {
   background-color: #ff4c68;
   font-size: 1.2rem;
@@ -11,7 +10,8 @@
   padding-right: 30%;
   float: right;
 }
-#features{
+
+#features {
   margin-left: 13px;
 }
 
@@ -44,26 +44,50 @@ h1 {
 
 .rotate {
   transform: rotate(20deg);
+
 }
 
 body {
   font-family: "Montserrat";
 }
-.fa-circle-check{
+
+.fa-circle-check {
+  margin-top: 15%;
   color: #ef8172;
 }
-.fa-bullseye{
-    color: #ef8172;
+
+.fa-bullseye {
+  margin-top: 15%;
+  color: #ef8172;
 }
-.fa-heart{
-   color: #ef8172;
+
+.fa-heart {
+  margin-top: 15%;
+  color: #ef8172;
 }
-.fa-circle-check:hover{
+
+.fa-circle-check:hover {
   color: #ff4c68;
 }
-.fa-bullseye:hover{
-    color: #ff4c68;
+
+.fa-bullseye:hover {
+  color: #ff4c68;
 }
-.fa-heart:hover{
-    color: #ff4c68;
+
+.fa-heart:hover {
+  color: #ff4c68;
+}
+
+.featurs-h3 {
+  font-size: 1.5rem;
+  font: Montserrat;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.features-p {
+  color: #8f8f8f;
+  text-align: center;
+  padding-bottom: 10px;
 }
