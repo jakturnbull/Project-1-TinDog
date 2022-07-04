@@ -58,3 +58,12 @@ body {
 .fa-heart{
    color: #ef8172;
 }
+.fa-circle-check:hover{
+  color: #ff4c68;
+}
+.fa-bullseye:hover{
+    color: #ff4c68;
+}
+.fa-heart:hover{
+    color: #ff4c68;
+}
