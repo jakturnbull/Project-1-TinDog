@@ -1,8 +1,18 @@
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
 #title {
   background-color: #ff4c68;
   font-size: 1.2rem;
   color: #fff;
-  z-index: 1
 }
 
 #tindogstyle {
@@ -14,19 +24,21 @@
 
 #features {
   margin-left: 13px;
-  z-index: 3;
 }
+
+.margin-box{
+  width:100%;
+  height:20%;
+  background-color:#ffffff;
+  color: #ffffff;
+  margin: 10px;
+}
+
+
 
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
   font-size: 3rem;
-}
-
-h1 {
-  font-family: 'Montserrat-black', sans-serif;
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 .container-fluid {
@@ -46,28 +58,20 @@ h1 {
 
 .rotate {
   transform: rotate(20deg);
-position: relative;
-top: 100px;
-z-index: 2;
-}
-
-
-body {
-  font-family: "Montserrat";
 }
 
 .fa-circle-check {
-  margin-top: 15%;
+  margin: 15%;
   color: #ef8172;
 }
 
 .fa-bullseye {
-  margin-top: 15%;
+  margin: 15%;
   color: #ef8172;
 }
 
 .fa-heart {
-  margin-top: 15%;
+  margin: 15%;
   color: #ef8172;
 }
 
@@ -95,4 +99,6 @@ body {
   color: #8f8f8f;
   text-align: center;
   padding-bottom: 10px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
