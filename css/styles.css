@@ -1,3 +1,5 @@
+/* Element Selectors */
+
 h1 {
   font-family: 'Montserrat-black', sans-serif;
   font-weight: 900;
@@ -8,6 +10,8 @@ h1 {
 body {
   font-family: "Montserrat";
 }
+
+/* ID selectors */
 
 #title {
   background-color: #ff4c68;
@@ -26,6 +30,8 @@ body {
   margin-left: 13px;
 }
 
+/* class selectors */
+
 .margin-box{
   width:100%;
   height:20%;
@@ -33,8 +39,6 @@ body {
   color: #ffffff;
   margin: 10px;
 }
-
-
 
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
