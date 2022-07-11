@@ -19,6 +19,13 @@ body {
 }
 
 /* ID selectors */
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+
 
 #title {
   background-color: #ff4c68;
@@ -113,4 +120,10 @@ body {
   padding-bottom: 10px;
   padding-left: 8%;
   padding-right: 8%;
+}
+.testimonial-image{
+  width:15%;
+  border-radius: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
