@@ -17,7 +17,9 @@ h2{
 body {
   font-family: "Montserrat";
 }
-
+p{
+  color: #fff;
+}
 /* ID selectors */
 #press{
   background-color:#ef8172;
@@ -54,9 +56,20 @@ body {
 #carousel-item{
   padding: 7% 15%;
 }
+
+#pricing{
+  background-color: #ef8172;
+  padding: 50px;
+}
+
 /* class selectors */
+.card-header{
 
+}
 
+.pricing-head{
+  color: #fff;
+}
 
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
@@ -113,6 +126,7 @@ body {
   background-color:  #ef8172;
   border-color: #ef8172;
 }
+
 .btn-primary:hover{
 background-color:  #ff4c68;
 border-color: #ff4c68;
@@ -120,7 +134,7 @@ border-color: #ff4c68;
 
 .featurs-h3 {
   font-size: 1.5rem;
-  font: Montserrat;
+  font: "Montserrat-black";
   font-weight: 900;
   text-align: center;
   padding-bottom: 10px;
