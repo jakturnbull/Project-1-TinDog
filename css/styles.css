@@ -20,6 +20,9 @@ body {
 p{
   color: #fff;
 }
+li{
+  padding: 0;
+}
 /* ID selectors */
 #press{
   background-color:#ef8172;
@@ -164,4 +167,8 @@ border-color: #ff4c68;
 }
 .carousel-inner{
   padding: 5%;
+}
+.card{
+max-height: 430px;
+
 }
