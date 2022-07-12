@@ -139,3 +139,6 @@ body {
   padding-top: 5%;
   margin:20px 20px 50px;
 }
+.carousel-inner{
+  padding: 5%;
+}
