@@ -45,13 +45,18 @@ p{
 
 #features {
   padding: 7% 15%;
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+
 }
 
 #testimonials{
-
+position: relative;
   text-align: center;
   background-color: #ef8172;
   color: #fff;
+  z-index: 9;
 }
 
 #carousel-item{
@@ -64,7 +69,11 @@ p{
 }
 
 /* class selectors */
-.card-header{
+.iphone-img{
+  position: absolute;
+  z-index: 1;
+  left: 10%;
+  top: 10%;
 
 }
 
