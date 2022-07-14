@@ -1,5 +1,4 @@
 /* Element Selectors */
-
 h1 {
   font-family: 'Montserrat-Black', sans-serif;
   font-weight: 900;
@@ -7,8 +6,8 @@ h1 {
   line-height: 1.5;
 }
 
-h2{
-  font-family: "Montserrat-Black",sans-serif;
+h2 {
+  font-family: "Montserrat-Black", sans-serif;
   font-size: 2rem;
   line-height: 1.5;
   font-weight: 900;
@@ -17,18 +16,17 @@ h2{
 body {
   font-family: "Montserrat";
 }
-p{
+
+p {
   color: #fff;
 }
 
 /* ID selectors */
-#press{
-  background-color:#ef8172;
+#press {
+  background-color: #ef8172;
   text-align: center;
   padding-bottom: 15px;
 }
-
-
 
 #title {
   background-color: #ff4c68;
@@ -48,36 +46,44 @@ p{
   position: relative;
   z-index: 10;
   background-color: #fff;
-
 }
 
-#testimonials{
-position: relative;
+#testimonials {
+  position: relative;
   text-align: center;
   background-color: #ef8172;
   color: #fff;
   z-index: 9;
 }
 
-#carousel-item{
+#carousel-item {
   padding: 7% 15%;
 }
 
-#pricing{
+#pricing {
   background-color: #ef8172;
   padding: 50px;
 }
 
 /* class selectors */
-.iphone-img{
+.iphone-img {
   position: absolute;
   z-index: 1;
-  left: 10%;
-  top: 10%;
-
+  transform: rotate(20deg);
 }
 
-.pricing-head{
+@media (max-width: 1055px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.pricing-head {
   color: #fff;
 }
 
@@ -99,10 +105,6 @@ position: relative;
   margin: 5px;
   margin-bottom: 100px;
   margin-top: 20PX
-}
-
-.rotate {
-  transform: rotate(20deg);
 }
 
 .fa-circle-check {
@@ -132,14 +134,14 @@ position: relative;
   color: #ff4c68;
 }
 
-.btn-primary{
-  background-color:  #ef8172;
+.btn-primary {
+  background-color: #ef8172;
   border-color: #ef8172;
 }
 
-.btn-primary:hover{
-background-color:  #ff4c68;
-border-color: #ff4c68;
+.btn-primary:hover {
+  background-color: #ff4c68;
+  border-color: #ff4c68;
 }
 
 .featurs-h3 {
@@ -157,25 +159,24 @@ border-color: #ff4c68;
   padding-left: 8%;
   padding-right: 8%;
 }
-.testimonial-text{
+
+.testimonial-text {
   padding: 12px 15%;
 }
-.testimonial-image{
-  width:12%;
+
+.testimonial-image {
+  width: 12%;
   border-radius: 100%;
   margin-left: 5%;
   margin-right: 5%;
-
 }
-.press-logo{
+
+.press-logo {
   width: 15%;
   padding-top: 5%;
-  margin:20px 20px 50px;
+  margin: 20px 20px 50px;
 }
-.carousel-inner{
+
+.carousel-inner {
   padding: 5%;
-}
-
-.card-body{
-
 }
