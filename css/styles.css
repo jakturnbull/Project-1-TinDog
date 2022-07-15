@@ -105,10 +105,10 @@ padding: 5%;
   position: absolute;
   z-index: 1;
   transform: rotate(20deg);
-
+left: 58%;
 }
 
-@media (max-width: 1055px) {
+@media (max-width: 1236px) {
   #title {
     text-align: center;
   }
