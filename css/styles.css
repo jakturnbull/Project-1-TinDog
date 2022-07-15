@@ -13,6 +13,13 @@ h2 {
   font-weight: 900;
 }
 
+h3{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color: #fff;
+}
+
 body {
   font-family: "Montserrat";
 }
@@ -22,6 +29,14 @@ p {
 }
 
 /* ID selectors */
+
+
+#cta{
+background-color: #ff4c68;
+text-align: center;
+padding: 5%;
+
+}
 #press {
   background-color: #ef8172;
   text-align: center;
@@ -64,12 +79,33 @@ p {
   background-color: #ef8172;
   padding: 50px;
 }
+#footer{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #fff;
+  padding: 8%;
+}
 
 /* class selectors */
+.footer-i{
+  margin-right: 15px;
+  margin-left: 15px;
+
+}
+
+.ctabtn{
+  margin: 3%;
+}
+.footer-p{
+  color:  #8f8f8f;
+  text-align: center;
+  margin-top: 2%;
+}
+
 .iphone-img {
   position: absolute;
   z-index: 1;
   transform: rotate(20deg);
+
 }
 
 @media (max-width: 1055px) {
@@ -179,4 +215,8 @@ p {
 
 .carousel-inner {
   padding: 5%;
+}
+
+.footer-cnt{
+  text-align: center;
 }
