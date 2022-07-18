@@ -1,10 +1,8 @@
 /* Element Selectors */
-h1 {
-  font-family: 'Montserrat-Black', sans-serif;
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Black", sans-serif;
 }
+
 
 h2 {
   font-family: "Montserrat-Black", sans-serif;
@@ -143,17 +141,7 @@ padding: 5%;
   margin-top: 20PX
 }
 
-.fa-circle-check {
-  margin: 15%;
-  color: #ef8172;
-}
-
-.fa-bullseye {
-  margin: 15%;
-  color: #ef8172;
-}
-
-.fa-heart {
+.features-icons{
   margin: 15%;
   color: #ef8172;
 }
@@ -179,13 +167,18 @@ padding: 5%;
   background-color: #ff4c68;
   border-color: #ff4c68;
 }
-
+@@media (max-width:990px) {
+  .featurs-h3 {
+    font-size: 0.9rem;
+  }
+}
 .featurs-h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font: "Montserrat-black";
   font-weight: 900;
   text-align: center;
   padding-bottom: 10px;
+  color: #343434;
 }
 
 .features-p {
@@ -219,4 +212,14 @@ padding: 5%;
 
 .footer-cnt{
   text-align: center;
+}
+
+
+/* Headings */
+
+.big-header{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
 }
